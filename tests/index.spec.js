@@ -16,7 +16,7 @@ describe ( 'resolverKeyStrategy', () => {
 
 		let key = _prepareKey( 'key' )
 
-		let _keystore = _symbolKeyStrategy( _cache )
+		let _keystore = _resolverKeyStrategy( _cache, _prepareKey )
 
 		expect( _keystore( key ) ).toEqual( key )
 
