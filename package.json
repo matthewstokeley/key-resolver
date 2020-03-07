@@ -1,0 +1,27 @@
+{
+  "name": "src",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "js-perf": "^1.0.0",
+    "karma": "^4.4.1",
+    "webpack": "^4.42.0"
+  },
+  "devDependencies": {
+    "jasmine": "^3.5.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://f97b0523-749b-43fd-8c68-dfc0495c9afd@api.glitch.com/git/clammy-noble-sparrow"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
