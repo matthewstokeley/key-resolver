@@ -8,7 +8,7 @@ export var _cache = function( key ) {
 
 }
 
-export var resolverKeyStrategy = function( _cache, fn ) {
+export var keyResolveStrategy = function( _cache, fn ) {
 
 	return function( str ) {
 		return _cache ( fn.call ( this, str ) ) 
