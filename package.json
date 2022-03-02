@@ -12,7 +12,7 @@
     "babel-loader": "^8.0.6",
     "babel-preset-env": "^1.7.0",
     "js-perf": "^1.0.0",
-    "karma": "^4.4.1",
+    "karma": "^6.3.16",
     "prettier": "^1.19.1",
     "webpack": "^4.42.0"
   },
